@@ -11,7 +11,10 @@ As part of the AIG Shields Up Cybersecurity Virtual Experience Program with Fora
 
 ## This script is designed in Python to brute-force decrypt encrypted files by attempting various decryption keys.
 
-###  Import and Define the First Function:
+
+
+
+####  Import and Define the First Function:
 
 - zf_handle: A handle for the ZIP file.
 - zf_handle.extractall(pwd=password): Attempts to extract all contents of the ZIP file using the provided password. If the password is correct, the extraction will succeed.
@@ -28,7 +31,7 @@ def attempt_extract(zf_handle, password):
         return False
 ```
 
-### Execution:
+#### Execution:
 
 - Iterate password entries, extract ZIP file using passwords, handle correct and incorrect attempts.
 - def main(): The main function described here performs a brute force attack.

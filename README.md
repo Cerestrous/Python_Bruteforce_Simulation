@@ -18,14 +18,14 @@ zf_handle.extractall(pwd=password): Attempts to extract all contents of the ZIP 
 password: The parameter used to attempt to decrypt the encrypted ZIP file. The assumption is that the ZIP file is password-protected.
 
 
-from zipfile import ZipFile
+`from zipfile import ZipFile
 
 def attempt_extract(zf_handle, password):
     try:
         zf_handle.extractall(pwd=password)
         return True
     except:
-        return False
+        return False`
 
 Execution:
 
@@ -39,7 +39,7 @@ Inside the loop, attempt_extract is called with the current password. If the ext
 If no passwords are correct, a message is displayed.
 The if __name__ == "__main__": block ensures that main() runs when the script is executed, but not if it's imported as a module.
 
-def main():
+`def main():
     print("[+] Beginning bruteforce ")
     with ZipFile('enc.zip') as zf:
         with open('rockyou.txt', 'rb') as f:
@@ -55,3 +55,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+`

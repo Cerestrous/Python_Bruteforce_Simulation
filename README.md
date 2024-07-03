@@ -1,5 +1,5 @@
 # Python_Bruteforce_Simulation
-AIG - Shields Up: Cybersecurity Job Simulation
+# AIG - Shields Up: Cybersecurity Job Simulation
 
 As part of the AIG Shields Up Cybersecurity Virtual Experience Program with Forage, I engaged in a section titled "Bypassing Ransomware," which presented a scenario involving a server compromised by the Log4j vulnerability.
 

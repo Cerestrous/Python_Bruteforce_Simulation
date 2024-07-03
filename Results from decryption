@@ -1,0 +1,11 @@
+This is the super sensitive, confidential document that was affected by the ransomware. Congratulations on the bruteforce!
+
+You can paste your bruteforce script in the box below:
+
+Import sys
+
+def main(args):
+  print(“Hello World”)
+
+if __name__ == “__main__”:
+  main(sys.argv)
